@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -std=c++11 -g -Wall  -shared -Wl,-soname,libRealSensePlugin.so -o libRealSensePlugin.so CMakeFiles/RealSensePlugin.dir/RealSensePlugin.cc.o   -L/usr/lib/x86_64-linux-gnu/gazebo-9/plugins 
